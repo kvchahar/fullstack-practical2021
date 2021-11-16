@@ -1,0 +1,158 @@
+body {
+    /* font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      line-height: 1.5; */
+
+    /* same as above */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+    width: 70%;
+    margin-top: -40px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.contain{
+    display: flex;
+}
+
+.phone img{
+    height: 500px;
+    width: 400px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background: dodgerblue;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    /* top,right,bottom,left */
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+}
+
+header nav {
+    /* float: right; */
+    margin-top: 50px;
+    margin-left: 32rem;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+footer {
+    padding: 50px;
+    margin-top: -40px;
+    color: #ffffff;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#showcase{
+    background: dodgerblue;
+    height: 440px;
+}
+
+.container-h1 h1{
+    color: white;
+    font-size: 70px;
+    line-height: 5rem;
+}
+
+.container-h1{
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.container-p1 p{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.container-p1{
+    margin-top: -25px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.button-1{
+    margin-left: 2px;
+    margin-top: 30px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+ img {
+    width: 50%;
+    height: 40px;
+    margin-left: 80px;
+}
+
+footer .icons{
+    display: flex;
+}
+
